@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Lendlink</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="A peer to peer lending platform where lenders and borrowers meet." />
+	<meta name="keywords" content="p2p-lending, loans, borrow, lend, invest, payment" />
+	 <!-- Bootstrap CSS -->
+	 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+	 <!-- Font Awesome CSS (via Bootstrap) -->
+	 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+	 <link rel="shortcut icon" href="home/images/icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="home/assets/css/main.css" />
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<a  href="/"><img class="logo" src="home/images/logo.png" alt="" srcset="" ></a>
+		<div class="navbar">
+			<div class="hamburger" id="hamburger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
+			</div>
+			<div class="menu" id="menu">
+				<a href="#">Home</a>
+				<a href="#">Sign In</a>
+				<a href="#">Sig Up</a>
+				<a href="#">Contact Us</u></a>
+			</div>
+		</div>
+	</header>
+
+	<!-- Banner -->
+
+	<div class="welcome">
+		<h1 class="heading">Lendlink<h1>
+			<p>Connecting futures through smart lending</p>
+			<a class=".welcome-button" href="/user/login" role="button">Login</a>
+			<a class=".welcome-button" href="/user/new" role="button">SignUp</a>
+	</div>
+
+	<div class="about-us">
+		<h1 class="about-us-title">About us!</h1>
+		<div class="content">
+			<div class="content-left">
+			<h1>Welcome to Lendlink</h1>
+
+            <h2>Our Mission</h2>
+            <p><strong>Empowering Financial Inclusion</strong></p>
+            <p>We are on a mission to empower financial inclusion by providing accessible and affordable lending solutions.
+                We understand that traditional financial institutions might not always meet the diverse needs of
+                individuals. Through our platform, we enable borrowers from various backgrounds to access funds for
+                education, entrepreneurship, emergencies, and more. By connecting lenders with borrowers, we foster a sense
+                of community and mutual support.</p>
+			</div>
+		<img src="home/images/about-us.png" alt="" srcset="">
+		</div>
+
+	</div>
+	<div class="container">
+		<div class="heading"><h1 class="feedback">We are craving to hear from you. Kindly leave a feedback.</h1>
+		</div>
+		<div class="content-wrap">
+			<div class="card mb-5">
+				<div class="card-body">
+					<form>
+						<div class="form-group">
+							<label>Name</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group">
+								<label>Email</label>
+								<input type="text" class="form-control">
+							</div>
+						<div class="form-group">
+								<label>Message</label>
+								<textarea rows="5" class="form-control"></textarea>
+							</div>
+							<input type="submit" class="form-control">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- Footer -->
+<footer id="footer">
+        <div class="footer-content">
+            <section>
+                <h3>Contact Us!</h3>
+                <p>Feel free to contact us via email or phone.</p>
+                <p>Email: contact@example.com</p>
+                <p>Phone: +1 123-456-7890</p>
+            </section>
+        </div>
+        <div class="copyright">
+			<section>
+                <h4>Follow Us</h4>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </section>
+            <p>&copy; 2023 Lendlink. All rights reserved.</p>
+        </div>
+</footer>
+
+
+	<!-- Scripts -->
+	<script src="/home/assets/js/jquery.min.js"></script>
+	<script src="/home/assets/js/browser.min.js"></script>
+	<script src="/home/assets/js/breakpoints.min.js"></script>
+	<script src="/home/assets/js/util.js"></script>
+	<script>
+		const hamburger = document.getElementById('hamburger');
+		const menu = document.getElementById('menu');
+
+		hamburger.addEventListener('click', () => {
+			menu.classList.toggle('show');
+		});
+	</script>
+
+</body>
+
+</html>
