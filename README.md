@@ -1,4 +1,4 @@
-<h1>Karz</h1>
+<h1>Lendlink</h1>
 <hr>
 
 <p>A Node.Js based P2P lending app that provides a platform for users in a group to loan a particular amount of 
